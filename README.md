@@ -90,6 +90,15 @@ Now, go to Etherscan [RinkebyEtherscan](https://rinkeby.etherscan.io) and type i
 
 ![Etherscan](images/Etherscan.PNG)
 
+After it has been deployed to Rinkeby, you can now run the local web interface. In the terminal, type the following to run the local web server
+	```
+    npm run dev
+    ```
+It should automatically open in your default web browser:
+
+![Website](images/Web1.PNG)
+	
+
 
 
 
