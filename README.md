@@ -15,7 +15,16 @@ The project does not use any 3rd party libraries nor IPFS.
 ### UML Diagrams
 
 #### Activity
-![Activity](images/activity.png)
+![Activity](images/Activity.png)
+
+#### Sequence
+![Sequence](images/Sequence.png)
+
+#### State
+![State](images/State.png)
+
+#### DataModel
+![DataModel](images/DataModel.png)
 
 ### Output
 
