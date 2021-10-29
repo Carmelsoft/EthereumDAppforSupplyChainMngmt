@@ -12,6 +12,11 @@ The project used the following library versions:
 
 The project does not use any 3rd party libraries nor IPFS.
 
+#UML Diagrams
+
+###Activity
+images/activity.png
+
 ### Output
 
 The following is a list of the contract and transaction ids for the SupplyChain object:
