@@ -12,10 +12,10 @@ The project used the following library versions:
 
 The project does not use any 3rd party libraries nor IPFS.
 
-#UML Diagrams
+### UML Diagrams
 
-###Activity
-images/activity.png
+#### Activity
+![Activity](images/activity.png)
 
 ### Output
 
