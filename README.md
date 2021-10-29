@@ -43,15 +43,15 @@ Etherscan info:
 The following are steps to compile the contracts developed in solidity:
 
 1. Download and install npm and [ nodejs ]( https://nodejs.org/en/ ). 
-2. Install [Ganache](https://www.trufflesuite.com/docs/ganache/quickstart) development blockchain. We utilized the Ganache user interface.
+2. Install the [Ganache](https://www.trufflesuite.com/docs/ganache/quickstart) development blockchain. We utilize the Ganache user interface as our local test blockchain.
 
 ![Ganache](images/Ganache.PNG)
 
-3. Install [Metamask](https://metamask.io/) Wallet for your browser. You can create a user account in Metamask then connect this account to the Rinkeby network. Copy your Metamask mnemonic and place it in the .env file (MNEMONIC variable):
+3. Install the [Metamask](https://metamask.io/) Wallet as a Chrome browser plug-in. You can create a user account in Metamask then connect this account to the Rinkeby network. Copy your Metamask mnemonic and place it in the .env file (MNEMONIC variable):
 
 ![Metamask](images/Metamask.PNG)
 
-4. Go to [Infura](https://infura.io) and create an account. Infura is used as a pathway from your app to the Ethereum network. Create a new Infura project or use an existing project. Copy the project id and place it in the .env file (API_URL variable). 
+4. Go to [Infura](https://infura.io) and create an account. Infura is used as a way for your app to connect with the Ethereum network. Create a new Infura project or use an existing project. Copy the project id and place it in the .env file (API_URL variable). 
 
 5. Now that all of the infrastructure is set up, open the project in Visual Studio Code (VSCode):
 
@@ -61,10 +61,9 @@ The following are steps to compile the contracts developed in solidity:
     ```
     truffle compile
     ```
-	
 Everything should successfully compile.
 
-7. Next, migrate it locally (using Ganache) so you can test
+7. Next, migrate the smart contract locally (to Ganache) so you can test it
 	```
     truffle migrate --reset
     ```
@@ -75,12 +74,12 @@ Everything should successfully compile.
 	```
     truffle test
     ```
-	
 It should display the following output if successful:
 
 ![UnitTest](images/Test.PNG)
 
 If the tests are successful, let's send it on over to the Ethereum Rinkeby test network:
+
 	```
 	truffle deploy --network rinkeby
 	```
