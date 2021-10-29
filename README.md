@@ -70,7 +70,7 @@ Everything should successfully compile.
 	
 ![MigrateIt](images/Migrate.PNG)	
 
-8. Now it's time to run the unit tests:
+8. Now it's time to run the unit tests
 	```
     truffle test
     ```
@@ -78,11 +78,9 @@ It should display the following output if successful:
 
 ![UnitTest](images/Test.PNG)
 
-If the tests are successful, let's send it on over to the Ethereum Rinkeby test network:
+If the tests are successful, let's send it on over to the Ethereum Rinkeby test network
 
-	```
 	truffle deploy --network rinkeby
-	```
 	
 It should display a similar console output as the following:
 
