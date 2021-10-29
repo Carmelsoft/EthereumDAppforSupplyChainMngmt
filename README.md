@@ -45,17 +45,17 @@ The following are steps to compile the contracts developed in solidity:
 1. Download and install npm and [ nodejs ]( https://nodejs.org/en/ ). 
 2. Install [Ganache](https://www.trufflesuite.com/docs/ganache/quickstart) development blockchain. We utilized the Ganache user interface.
 
-![Ganache](images/Ganache.png)
+![Ganache](images/Ganache.PNG)
 
 3. Install [Metamask](https://metamask.io/) Wallet for your browser. You can create a user account in Metamask then connect this account to the Rinkeby network. Copy your Metamask mnemonic and place it in the .env file (MNEMONIC variable):
 
-![Metamask](images/Metamask.png)
+![Metamask](images/Metamask.PNG)
 
 4. Go to [Infura](https://infura.io) and create an account. Infura is used as a pathway from your app to the Ethereum network. Create a new Infura project or use an existing project. Copy the project id and place it in the .env file (API_URL variable). 
 
 5. Now that all of the infrastructure is set up, open the project in Visual Studio Code (VSCode):
 
-![VSCode](images/VisualStudioCode.png)
+![VSCode](images/VisualStudioCode.PNG)
 
 6. Open the terminal in VSCode and run 
     ```
@@ -69,7 +69,7 @@ Everything should successfully compile.
     truffle migrate --reset
     ```
 	
-![MigrateIt](images/Migrate.png)	
+![MigrateIt](images/Migrate.PNG)	
 
 8. Now it's time to run the unit tests:
 	```
@@ -78,7 +78,7 @@ Everything should successfully compile.
 	
 It should display the following output if successful:
 
-![UnitTest](images/Test.png)
+![UnitTest](images/Test.PNG)
 
 If the tests are successful, let's send it on over to the Ethereum Rinkeby test network:
 	```
@@ -87,11 +87,11 @@ If the tests are successful, let's send it on over to the Ethereum Rinkeby test 
 	
 It should display a similar console output as the following:
 
-![DeploytoRinkeby](images/DeploytoRinkeby.png)
+![DeploytoRinkeby](images/DeploytoRinkeby.PNG)
 
 Now, go to Etherscan [RinkebyEtherscan](https://rinkeby.etherscan.io) and type in the contract or transaction id to observe it on Rinkeby:
 
-![Etherscan](images/Etherscan.png)
+![Etherscan](images/Etherscan.PNG)
 
 
 
